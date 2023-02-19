@@ -1,0 +1,116 @@
+/*------CSS reset------*/
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    box-sizing: border-box;
+    font-family: 'PT Sans' sans-serif; 
+    color: #fff;
+    line-height: 1.6;
+}
+/*--------------------------------=========================-----------------------------style for nav bar section---------------------========================================---*/
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    position: fixed;
+    
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav ul li{
+    display: block;
+list-style: none;
+padding-left:40px ;
+padding-top: 7px;
+}
+.nav ul li a{
+    display: block;
+ text-decoration: none;
+ color: white;
+ font-weight: bolder;
+  
+}
+.nav ul li a:hover{
+    display: block;
+    cursor: pointer;
+   
+border: 1px solid rgb(37, 40, 37);
+    background: rgb(46, 42, 42);
+    
+
+    
+}
+/*--------------------------------------===========----------------------------------------------Main sextion-----------------------===========---------------------------------*/
+
+/*------For overview section----*/
+.mytunes{
+  
+    width: 100%;
+    height: 100vh;
+    background:url('showcase.jpeg') no-repeat center/cover;
+
+
+}
+/*------For overview section----*/
+.overview{
+    width: 100%;
+    height: 1200px;
+    background: #252529;
+    text-align: center;
+    padding: 0.3rem;
+    margin: 0 auto;
+    position: relative;
+}
+#btn{
+    width: 180px; 
+    height: 60px;
+     color: #eee2e3;
+      margin: 20px; 
+      font-size: large;
+       background: #b90415;
+       border: none;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background: #b31828;
+}
+/*------For music section----*/
+.music{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+    background: #f4f4f4;
+}
+/*------For video section----*/
+.video{
+    width: 100%;
+    height: 900px;
+    background: url('section-bg.jpeg') no-repeat center/cover;
+   
+}
+/*------For gift cards section----*/
+.giftcards{
+    width: 100%;
+    height: 500px;
+    background: #f4f4f4;
+}
+/*--------------------------------------======--------------------------------footer setion--------------------------------==========------------------------------------------*/
+.footer_top{
+    width: 100%;
+    height: 300px;
+    background: #252529;
+}
+.footer_buttom{
+    width: 100%;
+    height: 100px;
+    background: #333333; 
+}
