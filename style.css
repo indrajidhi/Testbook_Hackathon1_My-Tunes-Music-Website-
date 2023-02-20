@@ -22,6 +22,7 @@ body{
     position: fixed;
     
 }
+
 .nav ul{
     display: flex;
     
@@ -119,6 +120,7 @@ border: 1px solid rgb(37, 40, 37);
     height: 500px;
    position: relative;
    display: flex;
+  
 }
 .img3{
 width: 30%;
@@ -140,6 +142,7 @@ position: relative;
 left: 700px;
 
 }
+
 /*--------------------------------------======--------------------------------footer setion--------------------------------==========------------------------------------------*/
 
 /*-------------footer top part--------*/
