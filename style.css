@@ -2,14 +2,17 @@
 *{
     padding: 0;
     margin: 0;
-   
+    
 }
 body{
-    box-sizing: border-box;
+    
     font-family:  sans-serif; 
     color: #fff;
     line-height: 1.6;
+    box-sizing: border-box;
+   
 }
+
 /*--------------------------------=========================-----------------------------style for nav bar section---------------------========================================---*/
 .nav{
     height: 40px;
@@ -55,6 +58,7 @@ border: 1px solid rgb(37, 40, 37);
     width: 100%;
     height: 100vh;
     background:url('showcase.jpeg') no-repeat center/cover;
+    background-size: 100% ;
 
 
 }
@@ -87,8 +91,7 @@ border: 1px solid rgb(37, 40, 37);
     width: 100%;
     height: 1300px;
     text-align: center;
-    margin: 0 auto;
-    padding: 0 3rem;
+   
     background: #f4f4f4;
 }
 .btn2{
@@ -100,12 +103,15 @@ border: 1px solid rgb(37, 40, 37);
        background:#103063;
        border: none; 
 }
+.img2{
+    width: 100%;
+}
 /*------For video section----*/
 .video{
     width: 100%;
     height: 550px;
     background: url('section-bg.jpeg') no-repeat center/cover;
-   
+    background-size: 100% ;
 }
 /*------For gift cards section----*/
 .giftcards{
@@ -118,19 +124,20 @@ border: 1px solid rgb(37, 40, 37);
 width: 30%;
 height: 300px;
 background:url('cards.png') no-repeat center/cover;
-
+background-size: 100% auto;
 position: absolute;
-left: 300px;
-top: 70px;
+left: 200px;
+top: 80px;
+z-index: -100;
 
 }
 .paragraph{
-width:50% ;
+width:30% ;
 height: 500px;
 
 
 position: relative;
-left: 800px;
+left: 700px;
 
 }
 /*--------------------------------------======--------------------------------footer setion--------------------------------==========------------------------------------------*/
@@ -183,3 +190,5 @@ left: 800px;
     padding-top: 20px;
     color: #fff;
 }
+
+
