@@ -104,6 +104,10 @@ border: 1px solid rgb(37, 40, 37);
        background:#103063;
        border: none; 
 }
+.btn2:hover{
+    cursor: pointer;
+    background-color: #1e3e73;
+}
 .img2{
     width: 100%;
 }
